@@ -30,7 +30,7 @@ html {
 /* Header */
 
 header {
-    background: #84979a;
+    background: linear-gradient(to right, #435a35, #163841);;
     position: relative;
     height: 70px;
 }

@@ -30,7 +30,7 @@ html {
 /* Header */
 
 header {
-    background: #84979a;
+    background: linear-gradient(to right, #435a35, #163841);;
     position: relative;
     height: 70px;
 }
@@ -277,7 +277,7 @@ nav li button {
 /* section */
 
 section {
-    margin-top: 580px;
+    margin-top: 650px;
 }
 
 section  h1 {

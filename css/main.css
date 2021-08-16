@@ -38,6 +38,13 @@ header {
     display: inline-block;
     margin-top: -40px;
     height: 110px;
+    position: relative
+}
+#logo i {
+    position: absolute;
+    left: 243px;
+    top: 65px;
+    color: #fff;
 }
 
 #logo-img, .search {
@@ -47,14 +54,15 @@ header {
     vertical-align: top;
     margin-top: 60px;
     margin-left: 80px;
-    padding: 6px;
+    padding: 6px 30px;
     line-height: 1em;
     outline: none;
     background-color: #879ca7;
     color: #fff;
     border: 1px solid #fff;
+    border-radius: 3px;
 }
-::placeholder { 
+.search::placeholder { 
     color: #fff;
     opacity: 1; 
 }
@@ -129,13 +137,13 @@ nav li button {
 } */
 .bitcoinImg {
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
+    border-radius: 135px;
     object-fit: cover;
+    padding: 50px;
     /* -webkit-animation: zoom-out 4s linear infinite;
-    animation: zoom-out 4s linear infinite;*/
+    animation: zoom-out 4s linear infinite; */
 } 
 .text-box {
     width: 600px;
@@ -434,8 +442,10 @@ section  h1 {
 }
 #partcontent {
     position: absolute;
-    top: 100px;
-    left: 0px;
+    top: 65px;
+    left: auto;
+    bottom: auto;
+    right: auto;
     background: rgba(255, 255, 255, .3);
     border-radius: 3px;
     width: 90%;
@@ -594,6 +604,23 @@ input[type="submit"]:hover {
     color: #fff;
     text-align: center;
 }
+.line:nth-child(1){
+    width: 40%;
+    float: left;
+    margin-left: 27px;
+}
+.line:nth-child(2){
+    width: 9%;
+    float: left;
+    display: block;
+    margin-top: -13px;
+    margin-left: 0;
+}
+.line:nth-child(3){
+    width: 40%;
+    float: right;
+    margin-right: 27px;
+}
 button {
     padding: 12px;
     margin-top: 8px;
@@ -622,10 +649,117 @@ button:hover {
     margin-right: 12px;
     margin-left: -15px;
 }
+.fa-instagram{
+    color: #8a3ab9;
+}
+.fa-twitter{
+    color: #1DA1F2;
+}
+.fa-linkedin-in {
+    color: blue;
+}
+.fa-telegram-plane{
+    color: #266ab3;
+}
 
 /* footer */
 footer{
-    background-color: #163942;
+    background-color: #212121;
+    color: #fff;
+    position: relative;
+    opacity: .9;
+ }
+
+#newsletter-form, #contacts, #links {
+   float: left;
+   /* width: 33%; */
 }
 
+#contacts li, #links li {
+    list-style-type: none;
+}
+#newsletter-form {
+   text-align: left;
+   width: 25%;
+   font-size: 15px;
+   padding-top: 15px;
+}
+#newsletter-form h3 {
+    margin-left: 23px;
+ }
+#links {
+    width: 40%;
+    text-align: center;
+}
+#links ul li {
+    display: inline-block;
+    margin-top: 17px;
+    margin-right: 20px;
+    padding-right: 15px;
+}
+#links li:nth-child(1), #links li:nth-child(2), #links li:nth-child(3), #links li:nth-child(4) {
+    border-right: 1px solid #fff;
+}
+#links li:nth-child(1){
+    border-left: 1px solid #fff;
+    padding-left: 15px;
+}
+#links li button {
+    line-height: 1.03em;
+    text-align: center;
+    padding: 10px;
+    width: 100px;
+    border: none;
+    background: #fff;
+    color: #181818;
+    font-weight: 700;
+    border-radius: 2px;
+}
+
+#copyright {
+    padding-top: 5px;
+    padding-bottom: 10px;
+
+}
+#footer-by, #submit {
+    width: 30%;
+    display: block;
+    position: center;
+}
+#email1 {
+    background-color: #fff;
+    outline: none;
+    width: 70%;
+}
+#submit{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+
+#contacts {
+    width: 28%;
+    padding-top: 15px;
+    padding-right: 20px;
+}
+#contacts li {
+    margin-bottom: 6px;
+}
+#contacts li i {
+    margin-right: 10px;
+}
+
+.fas, .fa-map-marker-alt , .far , .fa-envelope, .fas ,.fa-phone-square-alt{
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+#icons{
+    margin-top: 6px;
+    height: 40px;
+    padding-top: 20px;
+}
+#icons a {
+    margin-right: 30px;
+}
 
